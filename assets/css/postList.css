@@ -1,0 +1,43 @@
+.post {
+  padding: 4rem 6rem;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.post .title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.post .introduce {
+  font-size: 1.3rem;
+}
+
+.post .analysis {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.post .analysis img {
+  width: 300px;
+  height: auto;
+  padding-right: 3rem;
+}
+
+ul li {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+ul li strong {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+
+.post .img-content p {
+  font-size: 1.3rem;
+  margin: 0 1rem;
+}

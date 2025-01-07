@@ -1,0 +1,12 @@
+{
+    "name": "team25/da1",
+    "config": {
+
+        "platform-check": false
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

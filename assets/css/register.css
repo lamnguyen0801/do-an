@@ -1,0 +1,133 @@
+.sign-up-wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/japandi-living-room-interior-design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.sign-up-container {
+  max-width: 700px;
+  width: 100%;
+  background-color: var(--bg-main);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.sign-up-container .sign-up-title {
+  color: var(--primary-color);
+  padding: 10px;
+  font-size: 4rem;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+}
+
+.sign-up-container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form .user-details .input-box {
+  margin: 10px 0 15px 0;
+  width: 48%;
+}
+.user-details .input-box .details {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.user-details .input-box input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border: 2px solid var(--primary-color);
+}
+
+.container-btn-sm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-up-btn {
+  margin: 45px auto;
+  width: 100%;
+}
+.sign-up-btn a {
+  text-decoration: none;
+}
+
+.sign-up-btn input,
+.btn-lg {
+  font-size: 18px;
+  font-weight: 500;
+  height: 100%;
+  outline: none;
+  color: aliceblue;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.sign-up-btn input:hover,
+.btn-lg:hover {
+  transition: 0.2s linear;
+  color: var(--secondary-color);
+  opacity: 0.9;
+}
+
+.input-box {
+  position: relative;
+}
+
+.message-error {
+  font-size: 2rem;
+  color: red;
+  font-weight: 700;
+}
+/* Responsive */
+@media (max-width: 548px) {
+  .sign-up-container {
+    max-width: 100%;
+  }
+  form .user-details .input-box {
+    margin: 10px 0 12px 0;
+    width: 100%;
+  }
+  form .gender-details .category {
+    width: 100%;
+  }
+  .sign-up-container form .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .user-details::-webkit-scrollbar {
+    width: 0;
+  }
+}
+.form-message {
+  font-size: 1.2rem;
+  line-height: 1rem;
+  padding: 4px 0 0;
+  color: red;
+  font-weight: bold;
+}
