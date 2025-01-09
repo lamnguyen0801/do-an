@@ -1,10 +1,4 @@
 <?php
-    $a = 100;
-    $b = $a + $a;
-    echo $b;
-?>
-
-<?php
 ob_start();
 include_once('./model/db.classes.php');
 include_once('./model/user.classes.php');
