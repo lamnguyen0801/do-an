@@ -6,14 +6,12 @@ let isClick = false;
 
 validate()
 btn.addEventListener('submit',(e)=> {
-    console.log("submit nè")
     isClick = true
     let status = validate()
     if(status) {
         
     }else {
         // PREVENT DE FIX LOI GUI BIEU MAU CUA PHP, NGAN CHAN VIEC FORM GUI SUBMIT KHI JS CHUA VALIDATE
-        alert("Vui lòng nhập đúng các thông tin")
         e.preventDefault()
     }
 })

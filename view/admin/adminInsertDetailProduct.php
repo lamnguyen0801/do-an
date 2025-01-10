@@ -30,7 +30,7 @@
         </div>
         <div class="form-group">
             <label for="size" class="form-label">Size </label>
-            <input id="size" name="size" type="text" placeholder="VD: Size sản phẩm" class="form-control"
+            <input id="size" name="size" type="text" placeholder="Size sản phẩm" class="form-control"
                 autocomplete="off" value = "">
             <span class="form-message"></span>
         </div>

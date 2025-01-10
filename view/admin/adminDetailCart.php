@@ -13,7 +13,6 @@
             <td>Size</td>
             <td>Đơn giá</td>
             <td>Tổng giá</td>
-            <td>Tùy chỉnh</td>
         </tr>
     </thead>
 
@@ -28,10 +27,6 @@
             <td><?php echo $row_detailBill['size_detail'] ?></td>
             <td><?php echo $row_detailBill['product_price'] ?></td>
             <td><?php echo $row_detailBill['product_price'] * $row_detailBill['amount_detail'] ?></td>
-            <td>
-                <span class="status pending">Sửa</span>
-                <span class="status return">Xóa</span>
-            </td>
         </tr>
 
         <?php }?>

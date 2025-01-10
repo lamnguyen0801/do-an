@@ -28,7 +28,7 @@
 
         <div class="form-group">
             <label for="fullname" class="form-label">Tên</label>
-            <input id="fullname" name="fullname" type="text" placeholder="VD: Lâm Tiến" class="form-control"
+            <input id="fullname" name="fullname" type="text" placeholder="" class="form-control"
                 autocomplete="off" value = "<?php echo $row_category['name_category'] ?>">
             <span class="form-message"></span>
         </div>
@@ -36,14 +36,14 @@
 
         <div class="form-group">
             <label for="image" class="form-label">Image:</label>
-            <input id="image" name="image" type="file" placeholder="VD: 0931462697" class="form-control"
+            <input id="image" name="image" type="file" placeholder="" class="form-control"
                 autocomplete="off" value = "<?php echo $row_category['img_category'] ?>">
             <span class="form-message"></span>
         </div>
 
         <div class="form-group">
             <label for="order" class="form-label">Vị trí ưu tiên: </label>
-            <input id="order" name="order" type="text" placeholder="VD: Lâm Tiến" class="form-control"
+            <input id="order" name="order" type="text" placeholder="" class="form-control"
                 autocomplete="off" value = "<?php echo $row_category['order'] ?>">
             <span class="form-message"></span>
         </div>

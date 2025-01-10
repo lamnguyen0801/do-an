@@ -28,13 +28,13 @@
     
         <div class="form-group">
             <label for="price" class="form-label">Giá sản phẩm </label>
-            <input id="price" name="price" type="text" placeholder="VD: tienltps24556" class="form-control"
+            <input id="price" name="price" type="text" placeholder="" class="form-control"
                 autocomplete="off" value = "<?php echo $row_detail['detail_price'] ?>">
             <span class="form-message"></span>
         </div>
         <div class="form-group">
             <label for="size" class="form-label">Size </label>
-            <input id="size" name="size" type="text" placeholder="VD: tienltps24556" class="form-control"
+            <input id="size" name="size" type="text" placeholder="" class="form-control"
                 autocomplete="off" value = "<?php echo $row_detail['detail_size'] ?>">
             <span class="form-message"></span>
         </div>
@@ -42,14 +42,14 @@
 
         <div class="form-group">
             <label for="sold" class="form-label">Số lượng đã bán</label>
-            <input id="sold" name="sold" type="text" placeholder="VD: ltt@gmail.com" class="form-control"
+            <input id="sold" name="sold" type="text" placeholder="" class="form-control"
                 autocomplete="off" value = "<?php echo $row_detail['sold'] ?>">
             <span class="form-message"></span>
         </div>
 
         <div class="form-group">
             <label for="tonkho" class="form-label">Số lượng tồn kho: </label>
-            <input id="tonkho" name="tonkho" type="text" placeholder="VD: ltt@gmail.com" class="form-control"
+            <input id="tonkho" name="tonkho" type="text" placeholder="" class="form-control"
                 autocomplete="off" value = "<?php echo $row_detail['inventory'] ?>">
             <span class="form-message"></span>
         </div>

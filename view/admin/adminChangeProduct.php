@@ -34,35 +34,35 @@ foreach ($product as $row_product) {
 
             <div class="form-group">
                 <label for="fullname" class="form-label">Title Product</label>
-                <input id="fullname" name="fullname" type="text" placeholder="VD: Lâm Tiến" class="form-control"
+                <input id="fullname" name="fullname" type="text" placeholder="" class="form-control"
                     autocomplete="off" value="<?php echo $row_product['title_product'] ?>">
                 <span class="form-message"></span>
             </div>
 
             <div class="form-group">
                 <label for="subname" class="form-label">SubTitle</label>
-                <input id="subname" name="subname" type="text" placeholder="Subtitle của sản phẩm" class="form-control"
+                <input id="subname" name="subname" type="text" placeholder="" class="form-control"
                     autocomplete="off" value="<?php echo $row_product['subTitle_product'] ?>">
                 <span class="form-message"></span>
             </div>
 
             <div class="form-group">
                 <label for="description" class="form-label">Mô tả</label>
-                <input id="description" name="description" type="text" placeholder="Description của sản phẩm" class="form-control"
+                <input id="description" name="description" type="text" placeholder="" class="form-control"
                     autocomplete="off" value="<?php echo $row_product['des_product'] ?>">
                 <span class="form-message"></span>
             </div>
 
             <div class="form-group">
                 <label for="image" class="form-label">Image:</label>
-                <input id="image" name="image" type="file" placeholder="VD: 0931462697" class="form-control"
+                <input id="image" name="image" type="file" placeholder="" class="form-control"
                     autocomplete="off" value="<?php echo $row_product['img_product'] ?>">
                 <span class="form-message"></span>
             </div>
 
             <div class="form-group">
                 <label for="hot" class="form-label">Hot</label>
-                <input id="hot" name="hot" type="text" placeholder="VD: ltt@gmail.com" class="form-control"
+                <input id="hot" name="hot" type="text" placeholder="" class="form-control"
                     autocomplete="off" value="<?php echo $row_product['hot_product'] ?>">
                 <span class="form-message"></span>
             </div>

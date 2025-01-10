@@ -28,7 +28,7 @@
     <div class="form-group">
         <label for="fullname" class="form-label">Họ và tên: </label>
         <div class="flex-col">
-            <input id="fullname" name="fullname" type="text" placeholder="VD: Lâm Tiến" class="form-control"
+            <input id="fullname" name="fullname" type="text" placeholder="" class="form-control"
                 value="<?php echo $row_user['user_name'] ?>" autocomplete="off"> 
             <span class="form-message"></span>
         </div>
@@ -37,7 +37,7 @@
     <div class="form-group">
         <label for="password" class="form-label">Mật khẩu: </label>
         <div class="flex-col">
-            <input id="password" name="password" placeholder="123456789" type="password" class="form-control"
+            <input id="password" name="password" placeholder="" type="password" class="form-control"
                 autocomplete="off" value="<?php echo $row_user['user_password'] ?>"> 
             <span class="form-message"></span>
         </div>
@@ -47,7 +47,7 @@
     <div class="form-group">
         <label for="phone" class="form-label">Địa chỉ: </label>
         <div class="flex-col">
-            <input id="address" name="address" type="text" placeholder="VD: 0931462697" class="form-control" autocomplete="off"
+            <input id="address" name="address" type="text" placeholder="" class="form-control" autocomplete="off"
                 value="<?php echo $row_user['user_address']?>"> 
             <span class="form-message"></span>
         </div>
@@ -55,7 +55,7 @@
     <div class="form-group">
         <label for="phone" class="form-label">Số điện thoại: </label>
         <div class="flex-col">
-            <input id="phone" name="phone" type="text" placeholder="VD: 0931462697" class="form-control" autocomplete="off"
+            <input id="phone" name="phone" type="text" placeholder="" class="form-control" autocomplete="off"
                 value="<?php echo $row_user['user_phone'] ?>"> 
             <span class="form-message"></span>
         </div>
@@ -64,7 +64,7 @@
     <div class="form-group">
         <label for="email" class="form-label">Email: </label>
         <div class="flex-col">
-            <input id="email" name="email" type="text" placeholder="VD: ltt@gmail.com" class="form-control"
+            <input id="email" name="email" type="text" placeholder="" class="form-control"
                 autocomplete="off" value="<?php echo $row_user['user_email'] ?>"> 
             <span class="form-message"></span>
         </div>

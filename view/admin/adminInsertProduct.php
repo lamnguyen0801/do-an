@@ -55,7 +55,7 @@
 
           <div class="form-group">
             <label for="description" class="form-label">Mô tả sản phẩm</label>
-            <input id="description" name="description" type="text" placeholder="VD: Mô tả sản phẩm" class="form-control height-100" autocomplete="off">
+            <input id="description" name="description" type="text" placeholder="Mô tả sản phẩm" class="form-control height-100" autocomplete="off">
             <span class="form-message last-child"></span>
           </div>
 

@@ -23,21 +23,21 @@
 
         <div class="form-group">
             <label for="fullname" class="form-label">Họ và tên</label>
-            <input id="fullname" name="fullname" type="text" placeholder="VD: Lâm Tiến" class="form-control"
+            <input id="fullname" name="fullname" type="text" placeholder="Nhập họ tên" class="form-control"
                 autocomplete="off">
             <span class="form-message"></span>
         </div>
 
         <div class="form-group">
             <label for="userName" class="form-label">Tên đăng nhập: </label>
-            <input id="userName" name="userName" type="text" placeholder="VD: tienltps24556" class="form-control"
+            <input id="userName" name="userName" type="text" placeholder="Tên đăng nhập" class="form-control"
                 autocomplete="off">
             <span class="form-message"></span>
         </div>
 
         <div class="form-group">
             <label for="password" class="form-label">Mật khẩu:</label>
-            <input id="password" name="password" placeholder="123456789" type="password" class="form-control"
+            <input id="password" name="password" placeholder="Mật khẩu" type="password" class="form-control"
                 autocomplete="off">
             <span class="form-message"></span>
         </div>
@@ -51,14 +51,14 @@
         </div>
         <div class="form-group">
             <label for="address" class="form-label">Địa chỉ</label>
-            <input id="address" name="address" type="text" placeholder="VD: Quận 12" class="form-control"
+            <input id="address" name="address" type="text" placeholder="VD: HN" class="form-control"
                 autocomplete="off">
             <span class="form-message"></span>
         </div>
 
         <div class="form-group">
             <label for="email" class="form-label">Email</label>
-            <input id="email" name="email" type="text" placeholder="VD: ltt@gmail.com" class="form-control"
+            <input id="email" name="email" type="text" placeholder="VD: abc@gmail.com" class="form-control"
                 autocomplete="off">
             <span class="form-message"></span>
         </div>

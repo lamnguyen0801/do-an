@@ -32,7 +32,7 @@ $Slider = new Slider();
                 <h2 class="title" id="outstanding-product">Sản phẩm nổi bật</h2>
                 <div class="product-list">
                     <?php
-                        $productList = $Product->getFeaturedProducts(10);
+                        $productList = $Product->getFeaturedProducts(10);  
                         foreach($productList as $item) {                       
                     ?>
                         <a href="index.php?quanly=chitiet&id=<?php echo $item['id_product'] ?>" class="product-item">
